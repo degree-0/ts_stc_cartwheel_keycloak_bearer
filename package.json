@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/main.ts",
+    "dev:alt": "tsx watch src/alt_test.ts",
     "start": "node dist/main.js",
     "build": "tsup src/main.ts"
   },
@@ -19,7 +20,9 @@
   },
   "dependencies": {
     "@types/node": "^22.10.2",
+    "axios": "^1.7.9",
     "dotenv": "^16.4.7",
-    "ky": "^1.7.3"
+    "ky": "^1.7.3",
+    "node-html-parser": "^6.1.13"
   }
 }
